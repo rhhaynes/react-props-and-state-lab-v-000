@@ -5,7 +5,7 @@ import PetBrowser from './PetBrowser'
 
 class App extends React.Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       pets: [],
