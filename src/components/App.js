@@ -5,7 +5,7 @@ import PetBrowser from './PetBrowser'
 
 class App extends React.Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       pets: [],
@@ -24,7 +24,7 @@ class App extends React.Component {
         <div className="ui container">
           <div className="ui grid">
             <div className="four wide column">
-              <Filters />
+              <Filters {onChangeType} />
             </div>
             <div className="twelve wide column">
               <PetBrowser />
